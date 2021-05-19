@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		857B20BE2655073F00945A55 /* WordsScrumbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B20BD2655073F00945A55 /* WordsScrumbleView.swift */; };
 		857EA9092654F3210033F75C /* DaysSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA9082654F3210033F75C /* DaysSwiftUIApp.swift */; };
-		857EA90B2654F3210033F75C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA90A2654F3210033F75C /* ContentView.swift */; };
 		857EA90D2654F3240033F75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857EA90C2654F3240033F75C /* Assets.xcassets */; };
 		857EA9102654F3240033F75C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857EA90F2654F3240033F75C /* Preview Assets.xcassets */; };
 		857EA92E2654F3320033F75C /* WeSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA9192654F3320033F75C /* WeSplitView.swift */; };
@@ -25,13 +25,13 @@
 		857EA9392654F3330033F75C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA9292654F3320033F75C /* ContentView.swift */; };
 		857EA93A2654F3330033F75C /* FlagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA92A2654F3320033F75C /* FlagsView.swift */; };
 		857EA93B2654F3330033F75C /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 857EA92C2654F3320033F75C /* start.txt */; };
-		857EA93C2654F3330033F75C /* WorldScrumbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA92D2654F3320033F75C /* WorldScrumbleView.swift */; };
+		857EA93C2654F3330033F75C /* WordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA92D2654F3320033F75C /* WordsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		857B20BD2655073F00945A55 /* WordsScrumbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsScrumbleView.swift; sourceTree = "<group>"; };
 		857EA9052654F3210033F75C /* DaysSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaysSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		857EA9082654F3210033F75C /* DaysSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysSwiftUIApp.swift; sourceTree = "<group>"; };
-		857EA90A2654F3210033F75C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		857EA90C2654F3240033F75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		857EA90F2654F3240033F75C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		857EA9112654F3240033F75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		857EA9292654F3320033F75C /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		857EA92A2654F3320033F75C /* FlagsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagsView.swift; sourceTree = "<group>"; };
 		857EA92C2654F3320033F75C /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
-		857EA92D2654F3320033F75C /* WorldScrumbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldScrumbleView.swift; sourceTree = "<group>"; };
+		857EA92D2654F3320033F75C /* WordsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,6 @@
 				857EA9242654F3320033F75C /* Project4-ML */,
 				857EA92B2654F3320033F75C /* Project5-WordScramble */,
 				857EA9082654F3210033F75C /* DaysSwiftUIApp.swift */,
-				857EA90A2654F3210033F75C /* ContentView.swift */,
 				857EA90C2654F3240033F75C /* Assets.xcassets */,
 				857EA9112654F3240033F75C /* Info.plist */,
 				857EA90E2654F3240033F75C /* Preview Content */,
@@ -165,7 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				857EA92C2654F3320033F75C /* start.txt */,
-				857EA92D2654F3320033F75C /* WorldScrumbleView.swift */,
+				857EA92D2654F3320033F75C /* WordsView.swift */,
+				857B20BD2655073F00945A55 /* WordsScrumbleView.swift */,
 			);
 			path = "Project5-WordScramble";
 			sourceTree = "<group>";
@@ -242,17 +242,17 @@
 			files = (
 				857EA9332654F3320033F75C /* Watermark.swift in Sources */,
 				857EA9302654F3320033F75C /* GridStack.swift in Sources */,
-				857EA93C2654F3330033F75C /* WorldScrumbleView.swift in Sources */,
+				857EA93C2654F3330033F75C /* WordsView.swift in Sources */,
 				857EA9392654F3330033F75C /* ContentView.swift in Sources */,
 				857EA9352654F3320033F75C /* View+Ext.swift in Sources */,
 				857EA92E2654F3320033F75C /* WeSplitView.swift in Sources */,
 				857EA9342654F3320033F75C /* TechProjectView.swift in Sources */,
 				857EA9322654F3320033F75C /* Title.swift in Sources */,
 				857EA9372654F3330033F75C /* DatePickerView.swift in Sources */,
+				857B20BE2655073F00945A55 /* WordsScrumbleView.swift in Sources */,
 				857EA9312654F3320033F75C /* LargeBlueText.swift in Sources */,
 				857EA9362654F3320033F75C /* BetterRestView.swift in Sources */,
 				857EA93A2654F3330033F75C /* FlagsView.swift in Sources */,
-				857EA90B2654F3210033F75C /* ContentView.swift in Sources */,
 				857EA92F2654F3320033F75C /* CapsuleText.swift in Sources */,
 				857EA9092654F3210033F75C /* DaysSwiftUIApp.swift in Sources */,
 				857EA9382654F3330033F75C /* SleepCalculator.mlmodel in Sources */,

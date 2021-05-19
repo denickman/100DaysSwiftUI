@@ -11,7 +11,8 @@ import SwiftUI
 struct DaysSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            WordsScrumbleView()
         }
     }
 }
