@@ -11,6 +11,21 @@
 		857EA90B2654F3210033F75C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA90A2654F3210033F75C /* ContentView.swift */; };
 		857EA90D2654F3240033F75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857EA90C2654F3240033F75C /* Assets.xcassets */; };
 		857EA9102654F3240033F75C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857EA90F2654F3240033F75C /* Preview Assets.xcassets */; };
+		857EA92E2654F3320033F75C /* WeSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA9192654F3320033F75C /* WeSplitView.swift */; };
+		857EA92F2654F3320033F75C /* CapsuleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA91B2654F3320033F75C /* CapsuleText.swift */; };
+		857EA9302654F3320033F75C /* GridStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA91D2654F3320033F75C /* GridStack.swift */; };
+		857EA9312654F3320033F75C /* LargeBlueText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA91F2654F3320033F75C /* LargeBlueText.swift */; };
+		857EA9322654F3320033F75C /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA9202654F3320033F75C /* Title.swift */; };
+		857EA9332654F3320033F75C /* Watermark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA9212654F3320033F75C /* Watermark.swift */; };
+		857EA9342654F3320033F75C /* TechProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA9222654F3320033F75C /* TechProjectView.swift */; };
+		857EA9352654F3320033F75C /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA9232654F3320033F75C /* View+Ext.swift */; };
+		857EA9362654F3320033F75C /* BetterRestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA9252654F3320033F75C /* BetterRestView.swift */; };
+		857EA9372654F3330033F75C /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA9262654F3320033F75C /* DatePickerView.swift */; };
+		857EA9382654F3330033F75C /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 857EA9272654F3320033F75C /* SleepCalculator.mlmodel */; };
+		857EA9392654F3330033F75C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA9292654F3320033F75C /* ContentView.swift */; };
+		857EA93A2654F3330033F75C /* FlagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA92A2654F3320033F75C /* FlagsView.swift */; };
+		857EA93B2654F3330033F75C /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 857EA92C2654F3320033F75C /* start.txt */; };
+		857EA93C2654F3330033F75C /* WorldScrumbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA92D2654F3320033F75C /* WorldScrumbleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +35,21 @@
 		857EA90C2654F3240033F75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		857EA90F2654F3240033F75C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		857EA9112654F3240033F75C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857EA9192654F3320033F75C /* WeSplitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeSplitView.swift; sourceTree = "<group>"; };
+		857EA91B2654F3320033F75C /* CapsuleText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapsuleText.swift; sourceTree = "<group>"; };
+		857EA91D2654F3320033F75C /* GridStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridStack.swift; sourceTree = "<group>"; };
+		857EA91F2654F3320033F75C /* LargeBlueText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeBlueText.swift; sourceTree = "<group>"; };
+		857EA9202654F3320033F75C /* Title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		857EA9212654F3320033F75C /* Watermark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Watermark.swift; sourceTree = "<group>"; };
+		857EA9222654F3320033F75C /* TechProjectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechProjectView.swift; sourceTree = "<group>"; };
+		857EA9232654F3320033F75C /* View+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		857EA9252654F3320033F75C /* BetterRestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetterRestView.swift; sourceTree = "<group>"; };
+		857EA9262654F3320033F75C /* DatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		857EA9272654F3320033F75C /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
+		857EA9292654F3320033F75C /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		857EA92A2654F3320033F75C /* FlagsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagsView.swift; sourceTree = "<group>"; };
+		857EA92C2654F3320033F75C /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+		857EA92D2654F3320033F75C /* WorldScrumbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldScrumbleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +82,11 @@
 		857EA9072654F3210033F75C /* DaysSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				857EA9282654F3320033F75C /* Project1-Flags */,
+				857EA9182654F3320033F75C /* Project2-WeSplit */,
+				857EA91A2654F3320033F75C /* Project3-Customs */,
+				857EA9242654F3320033F75C /* Project4-ML */,
+				857EA92B2654F3320033F75C /* Project5-WordScramble */,
 				857EA9082654F3210033F75C /* DaysSwiftUIApp.swift */,
 				857EA90A2654F3210033F75C /* ContentView.swift */,
 				857EA90C2654F3240033F75C /* Assets.xcassets */,
@@ -67,6 +102,72 @@
 				857EA90F2654F3240033F75C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		857EA9182654F3320033F75C /* Project2-WeSplit */ = {
+			isa = PBXGroup;
+			children = (
+				857EA9192654F3320033F75C /* WeSplitView.swift */,
+			);
+			path = "Project2-WeSplit";
+			sourceTree = "<group>";
+		};
+		857EA91A2654F3320033F75C /* Project3-Customs */ = {
+			isa = PBXGroup;
+			children = (
+				857EA91B2654F3320033F75C /* CapsuleText.swift */,
+				857EA91C2654F3320033F75C /* CustomContainers */,
+				857EA91E2654F3320033F75C /* CustomModifiers */,
+				857EA9222654F3320033F75C /* TechProjectView.swift */,
+				857EA9232654F3320033F75C /* View+Ext.swift */,
+			);
+			path = "Project3-Customs";
+			sourceTree = "<group>";
+		};
+		857EA91C2654F3320033F75C /* CustomContainers */ = {
+			isa = PBXGroup;
+			children = (
+				857EA91D2654F3320033F75C /* GridStack.swift */,
+			);
+			path = CustomContainers;
+			sourceTree = "<group>";
+		};
+		857EA91E2654F3320033F75C /* CustomModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				857EA91F2654F3320033F75C /* LargeBlueText.swift */,
+				857EA9202654F3320033F75C /* Title.swift */,
+				857EA9212654F3320033F75C /* Watermark.swift */,
+			);
+			path = CustomModifiers;
+			sourceTree = "<group>";
+		};
+		857EA9242654F3320033F75C /* Project4-ML */ = {
+			isa = PBXGroup;
+			children = (
+				857EA9252654F3320033F75C /* BetterRestView.swift */,
+				857EA9262654F3320033F75C /* DatePickerView.swift */,
+				857EA9272654F3320033F75C /* SleepCalculator.mlmodel */,
+			);
+			path = "Project4-ML";
+			sourceTree = "<group>";
+		};
+		857EA9282654F3320033F75C /* Project1-Flags */ = {
+			isa = PBXGroup;
+			children = (
+				857EA9292654F3320033F75C /* ContentView.swift */,
+				857EA92A2654F3320033F75C /* FlagsView.swift */,
+			);
+			path = "Project1-Flags";
+			sourceTree = "<group>";
+		};
+		857EA92B2654F3320033F75C /* Project5-WordScramble */ = {
+			isa = PBXGroup;
+			children = (
+				857EA92C2654F3320033F75C /* start.txt */,
+				857EA92D2654F3320033F75C /* WorldScrumbleView.swift */,
+			);
+			path = "Project5-WordScramble";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				857EA9102654F3240033F75C /* Preview Assets.xcassets in Resources */,
+				857EA93B2654F3330033F75C /* start.txt in Resources */,
 				857EA90D2654F3240033F75C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +240,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				857EA9332654F3320033F75C /* Watermark.swift in Sources */,
+				857EA9302654F3320033F75C /* GridStack.swift in Sources */,
+				857EA93C2654F3330033F75C /* WorldScrumbleView.swift in Sources */,
+				857EA9392654F3330033F75C /* ContentView.swift in Sources */,
+				857EA9352654F3320033F75C /* View+Ext.swift in Sources */,
+				857EA92E2654F3320033F75C /* WeSplitView.swift in Sources */,
+				857EA9342654F3320033F75C /* TechProjectView.swift in Sources */,
+				857EA9322654F3320033F75C /* Title.swift in Sources */,
+				857EA9372654F3330033F75C /* DatePickerView.swift in Sources */,
+				857EA9312654F3320033F75C /* LargeBlueText.swift in Sources */,
+				857EA9362654F3320033F75C /* BetterRestView.swift in Sources */,
+				857EA93A2654F3330033F75C /* FlagsView.swift in Sources */,
 				857EA90B2654F3210033F75C /* ContentView.swift in Sources */,
+				857EA92F2654F3320033F75C /* CapsuleText.swift in Sources */,
 				857EA9092654F3210033F75C /* DaysSwiftUIApp.swift in Sources */,
+				857EA9382654F3330033F75C /* SleepCalculator.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
