@@ -12,7 +12,10 @@ struct DaysSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            WordsScrumbleView()
+//            WordsScrumbleView()
+//            AnimationView()
+//            AnimationView2()
+            AnimationView3()
         }
     }
 }

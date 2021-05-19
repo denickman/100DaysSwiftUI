@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		857B20BE2655073F00945A55 /* WordsScrumbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B20BD2655073F00945A55 /* WordsScrumbleView.swift */; };
+		857B20C22655361500945A55 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B20C12655361500945A55 /* AnimationView.swift */; };
+		857B20C6265544C800945A55 /* AnimationView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B20C5265544C800945A55 /* AnimationView2.swift */; };
+		857B20CA26554D8B00945A55 /* AnimationView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B20C926554D8B00945A55 /* AnimationView3.swift */; };
 		857EA9092654F3210033F75C /* DaysSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA9082654F3210033F75C /* DaysSwiftUIApp.swift */; };
 		857EA90D2654F3240033F75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857EA90C2654F3240033F75C /* Assets.xcassets */; };
 		857EA9102654F3240033F75C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857EA90F2654F3240033F75C /* Preview Assets.xcassets */; };
@@ -30,6 +33,9 @@
 
 /* Begin PBXFileReference section */
 		857B20BD2655073F00945A55 /* WordsScrumbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsScrumbleView.swift; sourceTree = "<group>"; };
+		857B20C12655361500945A55 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		857B20C5265544C800945A55 /* AnimationView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView2.swift; sourceTree = "<group>"; };
+		857B20C926554D8B00945A55 /* AnimationView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView3.swift; sourceTree = "<group>"; };
 		857EA9052654F3210033F75C /* DaysSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaysSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		857EA9082654F3210033F75C /* DaysSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysSwiftUIApp.swift; sourceTree = "<group>"; };
 		857EA90C2654F3240033F75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +69,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		857B20C02655349500945A55 /* Project6-Animations */ = {
+			isa = PBXGroup;
+			children = (
+				857B20C12655361500945A55 /* AnimationView.swift */,
+				857B20C5265544C800945A55 /* AnimationView2.swift */,
+				857B20C926554D8B00945A55 /* AnimationView3.swift */,
+			);
+			path = "Project6-Animations";
+			sourceTree = "<group>";
+		};
 		857EA8FC2654F3210033F75C = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +103,7 @@
 				857EA91A2654F3320033F75C /* Project3-Customs */,
 				857EA9242654F3320033F75C /* Project4-ML */,
 				857EA92B2654F3320033F75C /* Project5-WordScramble */,
+				857B20C02655349500945A55 /* Project6-Animations */,
 				857EA9082654F3210033F75C /* DaysSwiftUIApp.swift */,
 				857EA90C2654F3240033F75C /* Assets.xcassets */,
 				857EA9112654F3240033F75C /* Info.plist */,
@@ -242,11 +259,13 @@
 			files = (
 				857EA9332654F3320033F75C /* Watermark.swift in Sources */,
 				857EA9302654F3320033F75C /* GridStack.swift in Sources */,
+				857B20C6265544C800945A55 /* AnimationView2.swift in Sources */,
 				857EA93C2654F3330033F75C /* WordsView.swift in Sources */,
 				857EA9392654F3330033F75C /* ContentView.swift in Sources */,
 				857EA9352654F3320033F75C /* View+Ext.swift in Sources */,
 				857EA92E2654F3320033F75C /* WeSplitView.swift in Sources */,
 				857EA9342654F3320033F75C /* TechProjectView.swift in Sources */,
+				857B20C22655361500945A55 /* AnimationView.swift in Sources */,
 				857EA9322654F3320033F75C /* Title.swift in Sources */,
 				857EA9372654F3330033F75C /* DatePickerView.swift in Sources */,
 				857B20BE2655073F00945A55 /* WordsScrumbleView.swift in Sources */,
@@ -254,6 +273,7 @@
 				857EA9362654F3320033F75C /* BetterRestView.swift in Sources */,
 				857EA93A2654F3330033F75C /* FlagsView.swift in Sources */,
 				857EA92F2654F3320033F75C /* CapsuleText.swift in Sources */,
+				857B20CA26554D8B00945A55 /* AnimationView3.swift in Sources */,
 				857EA9092654F3210033F75C /* DaysSwiftUIApp.swift in Sources */,
 				857EA9382654F3330033F75C /* SleepCalculator.mlmodel in Sources */,
 			);
