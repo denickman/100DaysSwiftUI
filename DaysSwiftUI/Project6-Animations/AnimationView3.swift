@@ -13,7 +13,6 @@ struct AnimationView3: View {
     @State private var animationOrangeButtonAmount = 0.0
  
     var body: some View {
-        
         Group {
             Button("Tap Me") {
                 withAnimation {

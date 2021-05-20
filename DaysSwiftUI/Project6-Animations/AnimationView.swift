@@ -7,6 +7,10 @@
 
 import SwiftUI
 
+/*
+ In SwiftUI, the simplest type of animation is an implicit one: we tell our views ahead of time “if someone wants to animate you, here’s how you should respond”, and nothing more. SwiftUI will then take care of making sure any changes that do occur follow the animation you requested. In practice this makes animation trivial – it literally could not be any easier.
+ */
+
 struct AnimationView: View {
     
     @State private var animationAmount: CGFloat = 1.0

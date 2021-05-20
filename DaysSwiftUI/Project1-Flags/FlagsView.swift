@@ -12,6 +12,7 @@ struct FlagsView: View {
     @State private var countries = ["estonia", "germany", "italy", "poland", "france", "ireland"].shuffled()
     
     @State private var correctAnswerNumber = Int.random(in: 0...2)
+    @State private var animationFlagAmount = 0.0
     
     @State private var isShowingScore = false
     @State private var scoreTitle = ""
@@ -44,12 +45,14 @@ struct FlagsView: View {
                         .foregroundColor(.white)
                 }
                 
-                ForEach(0 ..< countries.count) { number in
+                ForEach(0 ..< countries.count) { index in
                     Button(action: {
-                        // flag was tapped
-                        self.flagTapped(number)
+                        self.flagTapped(index)
+                            withAnimation {
+                                self.animationFlagAmount += 360
+                            }
                     }) {
-                        Image(self.countries[number])
+                        Image(self.countries[index])
                             //                            .renderingMode(.original)
                             .resizable()
                             .frame(width: 128.0, height: 72.0, alignment: .center)
@@ -60,9 +63,10 @@ struct FlagsView: View {
                                             lineWidth: 1))
                             .shadow(color: .green, radius: 10)
                     }
+                .rotation3DEffect(
+                    .degrees(animationFlagAmount),
+                    axis: (x: 0.0, y: 1.0, z: 0.0))
                 }
-                
-                Spacer()
             }
         }
         .alert(isPresented: $isShowingScore, content: {
@@ -70,6 +74,10 @@ struct FlagsView: View {
                   message: Text("Your score is \(currentScore)"),
                   dismissButton: .default(Text("Continue")) {
                     self.askQuestion()
+                    
+                    
+                    
+                    
                   })
         })
     }

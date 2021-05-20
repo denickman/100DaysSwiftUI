@@ -11,6 +11,9 @@
 		857B20C22655361500945A55 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B20C12655361500945A55 /* AnimationView.swift */; };
 		857B20C6265544C800945A55 /* AnimationView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B20C5265544C800945A55 /* AnimationView2.swift */; };
 		857B20CA26554D8B00945A55 /* AnimationView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B20C926554D8B00945A55 /* AnimationView3.swift */; };
+		857B2101265654FF00945A55 /* AnimationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B2100265654FF00945A55 /* AnimationStackView.swift */; };
+		857B2104265657B000945A55 /* AnimationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B2103265657B000945A55 /* AnimationGestureView.swift */; };
+		857B210726566EBF00945A55 /* AnimationShowHideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B210626566EBF00945A55 /* AnimationShowHideView.swift */; };
 		857EA9092654F3210033F75C /* DaysSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA9082654F3210033F75C /* DaysSwiftUIApp.swift */; };
 		857EA90D2654F3240033F75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857EA90C2654F3240033F75C /* Assets.xcassets */; };
 		857EA9102654F3240033F75C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857EA90F2654F3240033F75C /* Preview Assets.xcassets */; };
@@ -36,6 +39,9 @@
 		857B20C12655361500945A55 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		857B20C5265544C800945A55 /* AnimationView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView2.swift; sourceTree = "<group>"; };
 		857B20C926554D8B00945A55 /* AnimationView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView3.swift; sourceTree = "<group>"; };
+		857B2100265654FF00945A55 /* AnimationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStackView.swift; sourceTree = "<group>"; };
+		857B2103265657B000945A55 /* AnimationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationGestureView.swift; sourceTree = "<group>"; };
+		857B210626566EBF00945A55 /* AnimationShowHideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationShowHideView.swift; sourceTree = "<group>"; };
 		857EA9052654F3210033F75C /* DaysSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaysSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		857EA9082654F3210033F75C /* DaysSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysSwiftUIApp.swift; sourceTree = "<group>"; };
 		857EA90C2654F3240033F75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,6 +81,9 @@
 				857B20C12655361500945A55 /* AnimationView.swift */,
 				857B20C5265544C800945A55 /* AnimationView2.swift */,
 				857B20C926554D8B00945A55 /* AnimationView3.swift */,
+				857B2100265654FF00945A55 /* AnimationStackView.swift */,
+				857B2103265657B000945A55 /* AnimationGestureView.swift */,
+				857B210626566EBF00945A55 /* AnimationShowHideView.swift */,
 			);
 			path = "Project6-Animations";
 			sourceTree = "<group>";
@@ -260,6 +269,7 @@
 				857EA9332654F3320033F75C /* Watermark.swift in Sources */,
 				857EA9302654F3320033F75C /* GridStack.swift in Sources */,
 				857B20C6265544C800945A55 /* AnimationView2.swift in Sources */,
+				857B2104265657B000945A55 /* AnimationGestureView.swift in Sources */,
 				857EA93C2654F3330033F75C /* WordsView.swift in Sources */,
 				857EA9392654F3330033F75C /* ContentView.swift in Sources */,
 				857EA9352654F3320033F75C /* View+Ext.swift in Sources */,
@@ -273,6 +283,8 @@
 				857EA9362654F3320033F75C /* BetterRestView.swift in Sources */,
 				857EA93A2654F3330033F75C /* FlagsView.swift in Sources */,
 				857EA92F2654F3320033F75C /* CapsuleText.swift in Sources */,
+				857B2101265654FF00945A55 /* AnimationStackView.swift in Sources */,
+				857B210726566EBF00945A55 /* AnimationShowHideView.swift in Sources */,
 				857B20CA26554D8B00945A55 /* AnimationView3.swift in Sources */,
 				857EA9092654F3210033F75C /* DaysSwiftUIApp.swift in Sources */,
 				857EA9382654F3330033F75C /* SleepCalculator.mlmodel in Sources */,
