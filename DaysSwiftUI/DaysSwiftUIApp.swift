@@ -11,7 +11,7 @@ import SwiftUI
 struct DaysSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            FlagsView()
+//            FlagsView()
 //            AnimationView2()
 //            ContentView()
 //            WordsScrumbleView()
@@ -21,6 +21,8 @@ struct DaysSwiftUIApp: App {
 //            AnimationStackView()
 //            AnimationGestureView()
 //            AnimationShowHideView()
+//            iExpenseStateView()
+            DeleteFromListView()
         }
     }
 }

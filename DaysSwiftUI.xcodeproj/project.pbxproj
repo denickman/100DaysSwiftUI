@@ -14,6 +14,11 @@
 		857B2101265654FF00945A55 /* AnimationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B2100265654FF00945A55 /* AnimationStackView.swift */; };
 		857B2104265657B000945A55 /* AnimationGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B2103265657B000945A55 /* AnimationGestureView.swift */; };
 		857B210726566EBF00945A55 /* AnimationShowHideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B210626566EBF00945A55 /* AnimationShowHideView.swift */; };
+		857B21242657A16900945A55 /* iExpenseStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B21232657A16900945A55 /* iExpenseStateView.swift */; };
+		857B21282657CAA800945A55 /* UDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B21272657CAA800945A55 /* UDView.swift */; };
+		857B212B2657CF1A00945A55 /* ArchiveObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B212A2657CF1A00945A55 /* ArchiveObjectView.swift */; };
+		857B218E2658F15D00945A55 /* DeleteFromListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B218D2658F15D00945A55 /* DeleteFromListView.swift */; };
+		857B2191265909A800945A55 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B2190265909A800945A55 /* AddView.swift */; };
 		857EA9092654F3210033F75C /* DaysSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA9082654F3210033F75C /* DaysSwiftUIApp.swift */; };
 		857EA90D2654F3240033F75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857EA90C2654F3240033F75C /* Assets.xcassets */; };
 		857EA9102654F3240033F75C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857EA90F2654F3240033F75C /* Preview Assets.xcassets */; };
@@ -42,6 +47,11 @@
 		857B2100265654FF00945A55 /* AnimationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStackView.swift; sourceTree = "<group>"; };
 		857B2103265657B000945A55 /* AnimationGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationGestureView.swift; sourceTree = "<group>"; };
 		857B210626566EBF00945A55 /* AnimationShowHideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationShowHideView.swift; sourceTree = "<group>"; };
+		857B21232657A16900945A55 /* iExpenseStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseStateView.swift; sourceTree = "<group>"; };
+		857B21272657CAA800945A55 /* UDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDView.swift; sourceTree = "<group>"; };
+		857B212A2657CF1A00945A55 /* ArchiveObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveObjectView.swift; sourceTree = "<group>"; };
+		857B218D2658F15D00945A55 /* DeleteFromListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteFromListView.swift; sourceTree = "<group>"; };
+		857B2190265909A800945A55 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		857EA9052654F3210033F75C /* DaysSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaysSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		857EA9082654F3210033F75C /* DaysSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysSwiftUIApp.swift; sourceTree = "<group>"; };
 		857EA90C2654F3240033F75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,6 +98,18 @@
 			path = "Project6-Animations";
 			sourceTree = "<group>";
 		};
+		857B2122265799C800945A55 /* Project7-iExpense */ = {
+			isa = PBXGroup;
+			children = (
+				857B21232657A16900945A55 /* iExpenseStateView.swift */,
+				857B21272657CAA800945A55 /* UDView.swift */,
+				857B212A2657CF1A00945A55 /* ArchiveObjectView.swift */,
+				857B218D2658F15D00945A55 /* DeleteFromListView.swift */,
+				857B2190265909A800945A55 /* AddView.swift */,
+			);
+			path = "Project7-iExpense";
+			sourceTree = "<group>";
+		};
 		857EA8FC2654F3210033F75C = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +135,7 @@
 				857EA9242654F3320033F75C /* Project4-ML */,
 				857EA92B2654F3320033F75C /* Project5-WordScramble */,
 				857B20C02655349500945A55 /* Project6-Animations */,
+				857B2122265799C800945A55 /* Project7-iExpense */,
 				857EA9082654F3210033F75C /* DaysSwiftUIApp.swift */,
 				857EA90C2654F3240033F75C /* Assets.xcassets */,
 				857EA9112654F3240033F75C /* Info.plist */,
@@ -268,7 +291,9 @@
 			files = (
 				857EA9332654F3320033F75C /* Watermark.swift in Sources */,
 				857EA9302654F3320033F75C /* GridStack.swift in Sources */,
+				857B2191265909A800945A55 /* AddView.swift in Sources */,
 				857B20C6265544C800945A55 /* AnimationView2.swift in Sources */,
+				857B212B2657CF1A00945A55 /* ArchiveObjectView.swift in Sources */,
 				857B2104265657B000945A55 /* AnimationGestureView.swift in Sources */,
 				857EA93C2654F3330033F75C /* WordsView.swift in Sources */,
 				857EA9392654F3330033F75C /* ContentView.swift in Sources */,
@@ -281,13 +306,16 @@
 				857B20BE2655073F00945A55 /* WordsScrumbleView.swift in Sources */,
 				857EA9312654F3320033F75C /* LargeBlueText.swift in Sources */,
 				857EA9362654F3320033F75C /* BetterRestView.swift in Sources */,
+				857B21242657A16900945A55 /* iExpenseStateView.swift in Sources */,
 				857EA93A2654F3330033F75C /* FlagsView.swift in Sources */,
 				857EA92F2654F3320033F75C /* CapsuleText.swift in Sources */,
 				857B2101265654FF00945A55 /* AnimationStackView.swift in Sources */,
+				857B21282657CAA800945A55 /* UDView.swift in Sources */,
 				857B210726566EBF00945A55 /* AnimationShowHideView.swift in Sources */,
 				857B20CA26554D8B00945A55 /* AnimationView3.swift in Sources */,
 				857EA9092654F3210033F75C /* DaysSwiftUIApp.swift in Sources */,
 				857EA9382654F3330033F75C /* SleepCalculator.mlmodel in Sources */,
+				857B218E2658F15D00945A55 /* DeleteFromListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
