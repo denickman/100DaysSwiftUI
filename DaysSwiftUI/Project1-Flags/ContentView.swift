@@ -27,7 +27,7 @@ struct ContentView: View {
                     self.isShowingAlert = true
                 }
                 .alert(isPresented: $isShowingAlert, content: {
-                    Alert.init(title: Text("Alert"), message: Text("Alert Message"), dismissButton: .default(Text("Ok")))
+                    Alert(title: Text("Alert"), message: Text("Alert Message"), dismissButton: .default(Text("Ok")))
                 })
                 
                 Picker("Select student", selection: $selectedStudent) {

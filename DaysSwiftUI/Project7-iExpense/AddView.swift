@@ -20,6 +20,8 @@ struct AddView: View {
     @State private var type = "Personal"
     @State private var amount = ""
     
+    @State private var isAmountWrong = false
+    
     static let types = ["Business", "Personal"]
     
     var body: some View {
@@ -37,16 +39,46 @@ struct AddView: View {
                     .keyboardType(.numberPad)
             }
             .navigationBarTitle("Add new expense")
-            .navigationBarItems(trailing:
-                                    Button("Save") {
-                                        if let actualAmount = Int(self.amount) {
-                                            let item = ExpenseItem(name: self.name, type: self.type, amount: actualAmount)
-                                            self.expenses.items.append(item)
-                                            self.fuckOffMode.wrappedValue.dismiss()
-                                        }
-                                    }
+            .navigationBarItems(trailing: Button("Save") {
+                
+                guard let actualAmount = Int(self.amount) else {
+                    isAmountWrong.toggle()
+                    return
+                }
+
+                let item = ExpenseItem(name: self.name, type: self.type, amount: actualAmount, level: getExpensiveLevel(actualAmount))
+                
+                self.expenses.items.append(item)
+                self.fuckOffMode.wrappedValue.dismiss()
+            }
             )
+            .alert(isPresented: $isAmountWrong, content: {
+                Alert(title: Text("Alert"),
+                      message: Text("\(self.amount) is very wrong man! Need to change!"),
+                      dismissButton: .default(Text("Ok")))
+            })
         }
+    }
+    
+    private func getExpensiveLevel(_ actualAmount: Int) -> ExpensiveLevel {
+        
+        var expensiveLevel: ExpensiveLevel
+        
+        switch actualAmount {
+        case 0...10:
+            expensiveLevel = .low
+            
+        case 10...100:
+            expensiveLevel = .medium
+            
+        case 100...1000:
+            expensiveLevel = .heigh
+            
+        default:
+            expensiveLevel = .unknown
+        }
+        
+        return expensiveLevel
     }
 }
 

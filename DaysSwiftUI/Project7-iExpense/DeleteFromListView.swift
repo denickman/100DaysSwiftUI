@@ -7,11 +7,24 @@
 
 import SwiftUI
 
+enum ItemFeature: Int, CaseIterable {
+    case edit = 0
+    case delete = 1
+}
+
+enum ExpensiveLevel: Int, Codable {
+    case low = 10
+    case medium = 100
+    case heigh = 1000
+    case unknown = 1000000
+}
+
 struct ExpenseItem: Identifiable, Codable {
-    let id = UUID()
+    var id = UUID()
     let name: String
     let type: String
     let amount: Int
+    let level: ExpensiveLevel
 }
 
 class Expenses: ObservableObject {
@@ -49,6 +62,8 @@ struct DeleteFromListView: View {
     @ObservedObject var expenses = Expenses()
     @State private var showingAddExpense = false
     
+    let itemImages = ["delete.left", "pencil.circle"]
+
     var body: some View {
         NavigationView {
             List {
@@ -58,9 +73,31 @@ struct DeleteFromListView: View {
                             Text(item.name)
                                 .font(.headline)
                             Text(item.type)
+                            
+                            HStack {
+                                Text("Cost:")
+                                    .font(.headline)
+                                
+                                let params = getExpenseParams(amount: item.level.rawValue)
+                                
+                                Text("$\(item.amount)")
+                                    .font(.system(size: CGFloat(params.fontSize)))
+                                    .foregroundColor(params.color)
+                            }
                         }
+                        
                         Spacer()
-                        Text("$\(item.amount)")
+                        
+                        HStack(spacing: 20) {
+                            ForEach(0..<itemImages.count) { index in
+                                Button(action: {
+                                    let itemIndex = ItemFeature(rawValue: index)!
+                                    itemTapped(at: itemIndex)
+                                }) {
+                                    Image(systemName: self.itemImages[index])
+                                }
+                            }
+                        }
                     }
                 }
                 .onDelete(perform: { indexSet in
@@ -69,13 +106,12 @@ struct DeleteFromListView: View {
             }
             .navigationBarTitle("iExpense")
             .navigationBarItems(trailing:
-                    Button(action: {
-                    //let expense = ExpenseItem(name: "Test", type: "Personal", amount: 5)
-                    //self.expenses.items.append(expense)
-                    self.showingAddExpense = true
-                }) {
-                    Image(systemName: "plus")
-                }
+                                    Button(action: {
+                                        self.showingAddExpense = true
+                                        // self.showingAddExpense.toggle() // another option for do it
+                                    }) {
+                                        Image(systemName: "plus")
+                                    }
             )
             .sheet(isPresented: $showingAddExpense, content: {
                 AddView(expenses: self.expenses)
@@ -85,10 +121,31 @@ struct DeleteFromListView: View {
             })
         }
     }
-}
-
-struct DeleteFromListView_Previews: PreviewProvider {
-    static var previews: some View {
-        DeleteFromListView()
+    
+    private func itemTapped(at index: ItemFeature) {
+        switch index {
+        case .edit:
+            print("Edit")
+            
+        case .delete:
+            print("Delete")
+        }
     }
+ 
+       private func getExpenseParams(amount: Int) -> (fontSize: Int, color: Color) {
+           switch amount {
+           case 0...10:
+               return (12, .blue)
+               
+           case 11...100:
+               return (15, .green)
+               
+           case 101...1000:
+               return (18, .orange)
+               
+           default:
+               return (20, .red)
+           }
+       }
+       
 }
