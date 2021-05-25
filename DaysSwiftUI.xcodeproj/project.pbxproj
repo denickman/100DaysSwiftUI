@@ -48,6 +48,7 @@
 		857EA93C2654F3330033F75C /* WordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA92D2654F3320033F75C /* WordsView.swift */; };
 		859708A9265CD8C200EE6AA6 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859708A8265CD8C200EE6AA6 /* MissionView.swift */; };
 		859708AC265CEBA400EE6AA6 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859708AB265CEBA400EE6AA6 /* AstronautView.swift */; };
+		859708B2265D056600EE6AA6 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859708B1265D056600EE6AA6 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +95,7 @@
 		857EA92D2654F3320033F75C /* WordsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsView.swift; sourceTree = "<group>"; };
 		859708A8265CD8C200EE6AA6 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		859708AB265CEBA400EE6AA6 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		859708B1265D056600EE6AA6 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +211,7 @@
 				857B20C02655349500945A55 /* Project6-Animations */,
 				857B2122265799C800945A55 /* Project7-iExpense */,
 				857B2195265B780B00945A55 /* Project8-Images */,
+				859708B0265D047E00EE6AA6 /* Project9-Drawing */,
 				857EA9082654F3210033F75C /* DaysSwiftUIApp.swift */,
 				857EA90C2654F3240033F75C /* Assets.xcassets */,
 				857EA9112654F3240033F75C /* Info.plist */,
@@ -292,6 +295,14 @@
 			path = "Project5-WordScramble";
 			sourceTree = "<group>";
 		};
+		859708B0265D047E00EE6AA6 /* Project9-Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				859708B1265D056600EE6AA6 /* DrawingView.swift */,
+			);
+			path = "Project9-Drawing";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -368,6 +379,7 @@
 				857EA9302654F3320033F75C /* GridStack.swift in Sources */,
 				857B2191265909A800945A55 /* AddNewExpenseView.swift in Sources */,
 				857B20C6265544C800945A55 /* AnimationView2.swift in Sources */,
+				859708B2265D056600EE6AA6 /* DrawingView.swift in Sources */,
 				857B212B2657CF1A00945A55 /* ArchiveObjectView.swift in Sources */,
 				857B2104265657B000945A55 /* AnimationGestureView.swift in Sources */,
 				857EA93C2654F3330033F75C /* WordsView.swift in Sources */,

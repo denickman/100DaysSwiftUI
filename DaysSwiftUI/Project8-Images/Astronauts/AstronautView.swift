@@ -23,6 +23,7 @@ struct AstronautView: View {
                     
                     Text(self.astronaut.description)
                         .padding()
+                        .background(Color.yellow)
                         .layoutPriority(1)
                     /*
                      Layout priority lets us control how readily a view shrinks when space is limited, or expands when space is plentiful. All views have a layout priority of 0 by default, which means they each get equal chance to grow or shrink. We’re going to give our astronaut description a layout priority of 1, which is higher than the image’s 0, which means it will automatically take up all available space.
