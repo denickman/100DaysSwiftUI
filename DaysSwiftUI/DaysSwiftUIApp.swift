@@ -22,7 +22,9 @@ struct DaysSwiftUIApp: App {
 //            AnimationGestureView()
 //            AnimationShowHideView()
 //            iExpenseStateView()
-            DeleteFromListView()
+//            ExpensesListView()
+//            ImagesView()
+            AstronautsView()
         }
     }
 }

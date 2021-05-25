@@ -57,7 +57,7 @@ class Expenses: ObservableObject {
     }
 }
 
-struct DeleteFromListView: View {
+struct ExpensesListView: View {
     
     @ObservedObject var expenses = Expenses()
     @State private var showingAddExpense = false
@@ -114,7 +114,7 @@ struct DeleteFromListView: View {
                                     }
             )
             .sheet(isPresented: $showingAddExpense, content: {
-                AddView(expenses: self.expenses)
+                AddNewExpenseView(expenses: self.expenses)
                 /*
                  The presentation mode is controlled by the view’s environment, and links to the isPresented parameter for our sheet – that Boolean gets set to true by us to show AddView, but will be flipped back to false by the environment when we call dismiss() on the presentation mode.
                  */

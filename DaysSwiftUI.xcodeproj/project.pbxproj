@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		856AF62F265B8A6F00717BC4 /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856AF62E265B8A6F00717BC4 /* CustomText.swift */; };
+		856AF633265B96F200717BC4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856AF632265B96F200717BC4 /* User.swift */; };
+		856AF639265BA13B00717BC4 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 856AF637265BA13B00717BC4 /* astronauts.json */; };
+		856AF63A265BA13B00717BC4 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 856AF638265BA13B00717BC4 /* missions.json */; };
+		856AF63D265BA4DA00717BC4 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856AF63C265BA4DA00717BC4 /* Astronaut.swift */; };
+		856AF640265BA52F00717BC4 /* Bundle+Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856AF63F265BA52F00717BC4 /* Bundle+Decodable.swift */; };
+		856AF645265BA65B00717BC4 /* AstronautsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856AF644265BA65B00717BC4 /* AstronautsView.swift */; };
+		856AF64A265BA7AB00717BC4 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856AF649265BA7AB00717BC4 /* Mission.swift */; };
 		857B20BE2655073F00945A55 /* WordsScrumbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B20BD2655073F00945A55 /* WordsScrumbleView.swift */; };
 		857B20C22655361500945A55 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B20C12655361500945A55 /* AnimationView.swift */; };
 		857B20C6265544C800945A55 /* AnimationView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B20C5265544C800945A55 /* AnimationView2.swift */; };
@@ -17,8 +25,9 @@
 		857B21242657A16900945A55 /* iExpenseStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B21232657A16900945A55 /* iExpenseStateView.swift */; };
 		857B21282657CAA800945A55 /* UDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B21272657CAA800945A55 /* UDView.swift */; };
 		857B212B2657CF1A00945A55 /* ArchiveObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B212A2657CF1A00945A55 /* ArchiveObjectView.swift */; };
-		857B218E2658F15D00945A55 /* DeleteFromListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B218D2658F15D00945A55 /* DeleteFromListView.swift */; };
-		857B2191265909A800945A55 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B2190265909A800945A55 /* AddView.swift */; };
+		857B218E2658F15D00945A55 /* ExpensesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B218D2658F15D00945A55 /* ExpensesListView.swift */; };
+		857B2191265909A800945A55 /* AddNewExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B2190265909A800945A55 /* AddNewExpenseView.swift */; };
+		857B2197265B782300945A55 /* ImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857B2196265B782300945A55 /* ImagesView.swift */; };
 		857EA9092654F3210033F75C /* DaysSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA9082654F3210033F75C /* DaysSwiftUIApp.swift */; };
 		857EA90D2654F3240033F75C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857EA90C2654F3240033F75C /* Assets.xcassets */; };
 		857EA9102654F3240033F75C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857EA90F2654F3240033F75C /* Preview Assets.xcassets */; };
@@ -37,9 +46,19 @@
 		857EA93A2654F3330033F75C /* FlagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA92A2654F3320033F75C /* FlagsView.swift */; };
 		857EA93B2654F3330033F75C /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = 857EA92C2654F3320033F75C /* start.txt */; };
 		857EA93C2654F3330033F75C /* WordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857EA92D2654F3320033F75C /* WordsView.swift */; };
+		859708A9265CD8C200EE6AA6 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859708A8265CD8C200EE6AA6 /* MissionView.swift */; };
+		859708AC265CEBA400EE6AA6 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859708AB265CEBA400EE6AA6 /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		856AF62E265B8A6F00717BC4 /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
+		856AF632265B96F200717BC4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		856AF637265BA13B00717BC4 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		856AF638265BA13B00717BC4 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		856AF63C265BA4DA00717BC4 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		856AF63F265BA52F00717BC4 /* Bundle+Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Decodable.swift"; sourceTree = "<group>"; };
+		856AF644265BA65B00717BC4 /* AstronautsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautsView.swift; sourceTree = "<group>"; };
+		856AF649265BA7AB00717BC4 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		857B20BD2655073F00945A55 /* WordsScrumbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsScrumbleView.swift; sourceTree = "<group>"; };
 		857B20C12655361500945A55 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		857B20C5265544C800945A55 /* AnimationView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView2.swift; sourceTree = "<group>"; };
@@ -50,8 +69,9 @@
 		857B21232657A16900945A55 /* iExpenseStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseStateView.swift; sourceTree = "<group>"; };
 		857B21272657CAA800945A55 /* UDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDView.swift; sourceTree = "<group>"; };
 		857B212A2657CF1A00945A55 /* ArchiveObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveObjectView.swift; sourceTree = "<group>"; };
-		857B218D2658F15D00945A55 /* DeleteFromListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteFromListView.swift; sourceTree = "<group>"; };
-		857B2190265909A800945A55 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		857B218D2658F15D00945A55 /* ExpensesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesListView.swift; sourceTree = "<group>"; };
+		857B2190265909A800945A55 /* AddNewExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewExpenseView.swift; sourceTree = "<group>"; };
+		857B2196265B782300945A55 /* ImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesView.swift; sourceTree = "<group>"; };
 		857EA9052654F3210033F75C /* DaysSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaysSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		857EA9082654F3210033F75C /* DaysSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysSwiftUIApp.swift; sourceTree = "<group>"; };
 		857EA90C2654F3240033F75C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,6 +92,8 @@
 		857EA92A2654F3320033F75C /* FlagsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagsView.swift; sourceTree = "<group>"; };
 		857EA92C2654F3320033F75C /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 		857EA92D2654F3320033F75C /* WordsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordsView.swift; sourceTree = "<group>"; };
+		859708A8265CD8C200EE6AA6 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		859708AB265CEBA400EE6AA6 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +107,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		856AF631265B96E600717BC4 /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				856AF632265B96F200717BC4 /* User.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		856AF636265BA12F00717BC4 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				856AF637265BA13B00717BC4 /* astronauts.json */,
+				856AF638265BA13B00717BC4 /* missions.json */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		856AF643265BA64300717BC4 /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				857B2196265B782300945A55 /* ImagesView.swift */,
+				856AF62E265B8A6F00717BC4 /* CustomText.swift */,
+			);
+			path = Tutorials;
+			sourceTree = "<group>";
+		};
+		856AF648265BA79600717BC4 /* Astronauts */ = {
+			isa = PBXGroup;
+			children = (
+				856AF63C265BA4DA00717BC4 /* Astronaut.swift */,
+				856AF649265BA7AB00717BC4 /* Mission.swift */,
+				856AF63F265BA52F00717BC4 /* Bundle+Decodable.swift */,
+				856AF644265BA65B00717BC4 /* AstronautsView.swift */,
+				859708A8265CD8C200EE6AA6 /* MissionView.swift */,
+				859708AB265CEBA400EE6AA6 /* AstronautView.swift */,
+			);
+			path = Astronauts;
+			sourceTree = "<group>";
+		};
 		857B20C02655349500945A55 /* Project6-Animations */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,10 +165,20 @@
 				857B21232657A16900945A55 /* iExpenseStateView.swift */,
 				857B21272657CAA800945A55 /* UDView.swift */,
 				857B212A2657CF1A00945A55 /* ArchiveObjectView.swift */,
-				857B218D2658F15D00945A55 /* DeleteFromListView.swift */,
-				857B2190265909A800945A55 /* AddView.swift */,
+				857B218D2658F15D00945A55 /* ExpensesListView.swift */,
+				857B2190265909A800945A55 /* AddNewExpenseView.swift */,
 			);
 			path = "Project7-iExpense";
+			sourceTree = "<group>";
+		};
+		857B2195265B780B00945A55 /* Project8-Images */ = {
+			isa = PBXGroup;
+			children = (
+				856AF648265BA79600717BC4 /* Astronauts */,
+				856AF643265BA64300717BC4 /* Tutorials */,
+				856AF636265BA12F00717BC4 /* Resourses */,
+			);
+			path = "Project8-Images";
 			sourceTree = "<group>";
 		};
 		857EA8FC2654F3210033F75C = {
@@ -129,6 +200,7 @@
 		857EA9072654F3210033F75C /* DaysSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				856AF631265B96E600717BC4 /* Globals */,
 				857EA9282654F3320033F75C /* Project1-Flags */,
 				857EA9182654F3320033F75C /* Project2-WeSplit */,
 				857EA91A2654F3320033F75C /* Project3-Customs */,
@@ -136,6 +208,7 @@
 				857EA92B2654F3320033F75C /* Project5-WordScramble */,
 				857B20C02655349500945A55 /* Project6-Animations */,
 				857B2122265799C800945A55 /* Project7-iExpense */,
+				857B2195265B780B00945A55 /* Project8-Images */,
 				857EA9082654F3210033F75C /* DaysSwiftUIApp.swift */,
 				857EA90C2654F3240033F75C /* Assets.xcassets */,
 				857EA9112654F3240033F75C /* Info.plist */,
@@ -277,8 +350,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				857EA9102654F3240033F75C /* Preview Assets.xcassets in Resources */,
+				856AF63A265BA13B00717BC4 /* missions.json in Resources */,
 				857EA93B2654F3330033F75C /* start.txt in Resources */,
 				857EA90D2654F3240033F75C /* Assets.xcassets in Resources */,
+				856AF639265BA13B00717BC4 /* astronauts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,20 +366,27 @@
 			files = (
 				857EA9332654F3320033F75C /* Watermark.swift in Sources */,
 				857EA9302654F3320033F75C /* GridStack.swift in Sources */,
-				857B2191265909A800945A55 /* AddView.swift in Sources */,
+				857B2191265909A800945A55 /* AddNewExpenseView.swift in Sources */,
 				857B20C6265544C800945A55 /* AnimationView2.swift in Sources */,
 				857B212B2657CF1A00945A55 /* ArchiveObjectView.swift in Sources */,
 				857B2104265657B000945A55 /* AnimationGestureView.swift in Sources */,
 				857EA93C2654F3330033F75C /* WordsView.swift in Sources */,
 				857EA9392654F3330033F75C /* ContentView.swift in Sources */,
+				856AF633265B96F200717BC4 /* User.swift in Sources */,
 				857EA9352654F3320033F75C /* View+Ext.swift in Sources */,
+				859708AC265CEBA400EE6AA6 /* AstronautView.swift in Sources */,
 				857EA92E2654F3320033F75C /* WeSplitView.swift in Sources */,
+				856AF640265BA52F00717BC4 /* Bundle+Decodable.swift in Sources */,
+				856AF62F265B8A6F00717BC4 /* CustomText.swift in Sources */,
 				857EA9342654F3320033F75C /* TechProjectView.swift in Sources */,
+				859708A9265CD8C200EE6AA6 /* MissionView.swift in Sources */,
 				857B20C22655361500945A55 /* AnimationView.swift in Sources */,
 				857EA9322654F3320033F75C /* Title.swift in Sources */,
 				857EA9372654F3330033F75C /* DatePickerView.swift in Sources */,
+				856AF645265BA65B00717BC4 /* AstronautsView.swift in Sources */,
 				857B20BE2655073F00945A55 /* WordsScrumbleView.swift in Sources */,
 				857EA9312654F3320033F75C /* LargeBlueText.swift in Sources */,
+				856AF63D265BA4DA00717BC4 /* Astronaut.swift in Sources */,
 				857EA9362654F3320033F75C /* BetterRestView.swift in Sources */,
 				857B21242657A16900945A55 /* iExpenseStateView.swift in Sources */,
 				857EA93A2654F3330033F75C /* FlagsView.swift in Sources */,
@@ -313,9 +395,11 @@
 				857B21282657CAA800945A55 /* UDView.swift in Sources */,
 				857B210726566EBF00945A55 /* AnimationShowHideView.swift in Sources */,
 				857B20CA26554D8B00945A55 /* AnimationView3.swift in Sources */,
+				857B2197265B782300945A55 /* ImagesView.swift in Sources */,
+				856AF64A265BA7AB00717BC4 /* Mission.swift in Sources */,
 				857EA9092654F3210033F75C /* DaysSwiftUIApp.swift in Sources */,
 				857EA9382654F3330033F75C /* SleepCalculator.mlmodel in Sources */,
-				857B218E2658F15D00945A55 /* DeleteFromListView.swift in Sources */,
+				857B218E2658F15D00945A55 /* ExpensesListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

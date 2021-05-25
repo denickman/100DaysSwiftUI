@@ -7,10 +7,9 @@
 
 import SwiftUI
 
-struct AddView: View {
+struct AddNewExpenseView: View {
     
     @ObservedObject var expenses: Expenses
-    
     @Environment(\.presentationMode) var fuckOffMode
     /*
      The presentation mode is controlled by the view’s environment, and links to the isPresented parameter for our sheet – that Boolean gets set to true by us to show AddView, but will be flipped back to false by the environment when we call dismiss() on the presentation mode.
@@ -84,6 +83,6 @@ struct AddView: View {
 
 struct AddView_Previews: PreviewProvider {
     static var previews: some View {
-        AddView(expenses: Expenses())
+        AddNewExpenseView(expenses: Expenses())
     }
 }

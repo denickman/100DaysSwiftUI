@@ -7,11 +7,6 @@
 
 import SwiftUI
 
-struct ArchUser: Codable {
-    var firstName: String
-    var lastName: String
-}
-
 struct ArchiveObjectView: View {
     
     @State private var user = ArchUser(firstName: "Den", lastName: "Remen")
