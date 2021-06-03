@@ -20,6 +20,7 @@ enum ExpensiveLevel: Int, Codable {
 }
 
 struct ExpenseItem: Identifiable, Codable {
+    // for inserting this model into List need to conform Identifiable protocol
     var id = UUID()
     let name: String
     let type: String

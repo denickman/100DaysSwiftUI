@@ -24,7 +24,16 @@ struct DaysSwiftUIApp: App {
 //            iExpenseStateView()
 //            ExpensesListView()
 //            ImagesView()
-            AstronautsView()
+//            AstronautsView()
+//            TransformView()
+//            DrawingGroupView()
+//            EffectsView()
+//            AnimatedShapeView()
+//            ComplexShapeView()
+//            SpirographView()
+//            URLView()
+//            URLView2()
+            CupcakeView()
         }
     }
 }
