@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		850ACCD4266A6A0500E7A7F9 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850ACCD3266A6A0500E7A7F9 /* BindingView.swift */; };
+		850ACCD8266A84C400E7A7F9 /* SizeClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850ACCD7266A84C400E7A7F9 /* SizeClassView.swift */; };
+		850ACCDC266B90D800E7A7F9 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 850ACCDA266B90D800E7A7F9 /* Bookworm.xcdatamodeld */; };
+		850ACD33266BA35000E7A7F9 /* PropertyWrapperStructView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850ACD32266BA35000E7A7F9 /* PropertyWrapperStructView.swift */; };
 		852F440A2668EC1200A9E5A1 /* URLView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852F44092668EC1200A9E5A1 /* URLView2.swift */; };
 		852F440F2668F09500A9E5A1 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852F440E2668F09500A9E5A1 /* Order.swift */; };
 		852F44132668F14E00A9E5A1 /* CupcakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852F44122668F14E00A9E5A1 /* CupcakeView.swift */; };
@@ -63,9 +67,15 @@
 		859708E7265FA67E00EE6AA6 /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859708E6265FA67E00EE6AA6 /* SpirographView.swift */; };
 		859708EA265FC85E00EE6AA6 /* Globals in Resources */ = {isa = PBXBuildFile; fileRef = 859708E9265FC85E00EE6AA6 /* Globals */; };
 		859708EE265FD63400EE6AA6 /* URLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859708ED265FD63400EE6AA6 /* URLView.swift */; };
+		85A1F1E2266D25C900CD0AC9 /* PickeredImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A1F1E1266D25C900CD0AC9 /* PickeredImageView.swift */; };
+		85D72D49266D529E007D12BB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D72D48266D529E007D12BB /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		850ACCD3266A6A0500E7A7F9 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		850ACCD7266A84C400E7A7F9 /* SizeClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeClassView.swift; sourceTree = "<group>"; };
+		850ACCDB266B90D800E7A7F9 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
+		850ACD32266BA35000E7A7F9 /* PropertyWrapperStructView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperStructView.swift; sourceTree = "<group>"; };
 		852F44092668EC1200A9E5A1 /* URLView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLView2.swift; sourceTree = "<group>"; };
 		852F440E2668F09500A9E5A1 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		852F44122668F14E00A9E5A1 /* CupcakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeView.swift; sourceTree = "<group>"; };
@@ -124,6 +134,8 @@
 		859708E6265FA67E00EE6AA6 /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
 		859708E9265FC85E00EE6AA6 /* Globals */ = {isa = PBXFileReference; lastKnownFileType = text; path = Globals; sourceTree = "<group>"; };
 		859708ED265FD63400EE6AA6 /* URLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLView.swift; sourceTree = "<group>"; };
+		85A1F1E1266D25C900CD0AC9 /* PickeredImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickeredImageView.swift; sourceTree = "<group>"; };
+		85D72D48266D529E007D12BB /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +149,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		850ACCD2266A69C000E7A7F9 /* Project11-Bookworm-Not Work */ = {
+			isa = PBXGroup;
+			children = (
+				850ACCD3266A6A0500E7A7F9 /* BindingView.swift */,
+				850ACCD7266A84C400E7A7F9 /* SizeClassView.swift */,
+				850ACCDA266B90D800E7A7F9 /* Bookworm.xcdatamodeld */,
+			);
+			path = "Project11-Bookworm-Not Work";
+			sourceTree = "<group>";
+		};
+		850ACD31266BA22400E7A7F9 /* Project12-Instafilter */ = {
+			isa = PBXGroup;
+			children = (
+				850ACD32266BA35000E7A7F9 /* PropertyWrapperStructView.swift */,
+				85A1F1E1266D25C900CD0AC9 /* PickeredImageView.swift */,
+				85D72D48266D529E007D12BB /* ImagePicker.swift */,
+			);
+			path = "Project12-Instafilter";
+			sourceTree = "<group>";
+		};
 		852F440D2668F08700A9E5A1 /* Cupcakes */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,6 +285,8 @@
 				857B2195265B780B00945A55 /* Project8-Images */,
 				859708B0265D047E00EE6AA6 /* Project9-Drawing(43-45) */,
 				859708EC265FD61500EE6AA6 /* Project10-CupCakes(49) */,
+				850ACCD2266A69C000E7A7F9 /* Project11-Bookworm-Not Work */,
+				850ACD31266BA22400E7A7F9 /* Project12-Instafilter */,
 				857EA9082654F3210033F75C /* DaysSwiftUIApp.swift */,
 				857EA90C2654F3240033F75C /* Assets.xcassets */,
 				857EA9112654F3240033F75C /* Info.plist */,
@@ -436,6 +470,7 @@
 			files = (
 				857EA9332654F3320033F75C /* Watermark.swift in Sources */,
 				857EA9302654F3320033F75C /* GridStack.swift in Sources */,
+				850ACD33266BA35000E7A7F9 /* PropertyWrapperStructView.swift in Sources */,
 				852F44192668F95200A9E5A1 /* CheckoutView.swift in Sources */,
 				857B2191265909A800945A55 /* AddNewExpenseView.swift in Sources */,
 				857B20C6265544C800945A55 /* AnimationView2.swift in Sources */,
@@ -445,6 +480,7 @@
 				852F44162668F64700A9E5A1 /* AddressView.swift in Sources */,
 				859708CB265E3AE900EE6AA6 /* TransformView.swift in Sources */,
 				859708EE265FD63400EE6AA6 /* URLView.swift in Sources */,
+				850ACCD4266A6A0500E7A7F9 /* BindingView.swift in Sources */,
 				859708CE265E44FF00EE6AA6 /* BordersView.swift in Sources */,
 				857EA93C2654F3330033F75C /* WordsView.swift in Sources */,
 				857EA9392654F3330033F75C /* ContentView.swift in Sources */,
@@ -456,6 +492,7 @@
 				859708DC265E5FB000EE6AA6 /* AnimatedShapeView.swift in Sources */,
 				856AF640265BA52F00717BC4 /* Bundle+Decodable.swift in Sources */,
 				856AF62F265B8A6F00717BC4 /* CustomText.swift in Sources */,
+				85A1F1E2266D25C900CD0AC9 /* PickeredImageView.swift in Sources */,
 				857EA9342654F3320033F75C /* TechProjectView.swift in Sources */,
 				859708D5265E551600EE6AA6 /* EffectsView.swift in Sources */,
 				859708A9265CD8C200EE6AA6 /* MissionView.swift in Sources */,
@@ -474,11 +511,14 @@
 				852F44132668F14E00A9E5A1 /* CupcakeView.swift in Sources */,
 				859708E7265FA67E00EE6AA6 /* SpirographView.swift in Sources */,
 				857B2101265654FF00945A55 /* AnimationStackView.swift in Sources */,
+				850ACCDC266B90D800E7A7F9 /* Bookworm.xcdatamodeld in Sources */,
 				857B21282657CAA800945A55 /* UDView.swift in Sources */,
+				85D72D49266D529E007D12BB /* ImagePicker.swift in Sources */,
 				857B210726566EBF00945A55 /* AnimationShowHideView.swift in Sources */,
 				857B20CA26554D8B00945A55 /* AnimationView3.swift in Sources */,
 				859708DF265E75FE00EE6AA6 /* ComplexShapeView.swift in Sources */,
 				857B2197265B782300945A55 /* ImagesView.swift in Sources */,
+				850ACCD8266A84C400E7A7F9 /* SizeClassView.swift in Sources */,
 				856AF64A265BA7AB00717BC4 /* Mission.swift in Sources */,
 				857EA9092654F3210033F75C /* DaysSwiftUIApp.swift in Sources */,
 				857EA9382654F3330033F75C /* SleepCalculator.mlmodel in Sources */,
@@ -672,6 +712,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		850ACCDA266B90D800E7A7F9 /* Bookworm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				850ACCDB266B90D800E7A7F9 /* Bookworm.xcdatamodel */,
+			);
+			currentVersion = 850ACCDB266B90D800E7A7F9 /* Bookworm.xcdatamodel */;
+			path = Bookworm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 857EA8FD2654F3210033F75C /* Project object */;
 }

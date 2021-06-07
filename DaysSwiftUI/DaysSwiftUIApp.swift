@@ -33,7 +33,12 @@ struct DaysSwiftUIApp: App {
 //            SpirographView()
 //            URLView()
 //            URLView2()
-            CupcakeView()
+//            CupcakeView()
+//            BindingView()
+//            SizeClassView()
+//            PropertyWrapperStructView()
+            PickeredImageView()
+            
         }
     }
 }

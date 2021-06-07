@@ -65,10 +65,7 @@ struct CheckoutView: View {
                 print("Invalid response from the server")
             }
             
-            
         }.resume()
-        
-        
     }
 }
 
