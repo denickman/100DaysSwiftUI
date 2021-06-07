@@ -16,7 +16,6 @@ struct ImagePicker: UIViewControllerRepresentable { // ImagePicker struct is a v
     
     @Binding var image: UIImage? // it can send changes back to a parent view.
     @Environment(\.presentationMode) var presentationMode
-
     
     class Coordinator: NSObject, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
         /*
@@ -52,6 +51,7 @@ struct ImagePicker: UIViewControllerRepresentable { // ImagePicker struct is a v
     //     typealias UIViewControllerType = UIImagePickerController
     
     func makeUIViewController(context: Context) -> UIImagePickerController {
+        // When that ImagePicker struct is created, SwiftUI will automatically call this method, which is what goes on to create and send back a UIImagePickerController
         //  responsible for creating the initial view controller
         let picker = UIImagePickerController()
         picker.delegate = context.coordinator

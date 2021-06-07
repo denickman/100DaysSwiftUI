@@ -71,6 +71,13 @@ struct PickeredImageView: View {
             
             // and convert that to a SwiftUI image
             image = Image(uiImage: uiImage)
+            
+            let imageSaver = ImageSaver()
+            imageSaver.writeToPhotoAlbum(image: uiImage)
+            
+            /*
+             So, the first one is the image to save, the second one is an object that should be notified about the result of the save, the third one is the method on the object that should be run, and then there’s the fourth one. We aren’t going to be using it here, but you need to be aware of what it does: we can provide any sort of data here, and it will be passed back to us when our completion method is called.
+             */
         }
     }
 }

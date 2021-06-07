@@ -69,6 +69,8 @@
 		859708EE265FD63400EE6AA6 /* URLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859708ED265FD63400EE6AA6 /* URLView.swift */; };
 		85A1F1E2266D25C900CD0AC9 /* PickeredImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A1F1E1266D25C900CD0AC9 /* PickeredImageView.swift */; };
 		85D72D49266D529E007D12BB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D72D48266D529E007D12BB /* ImagePicker.swift */; };
+		85D72DBE266E0B3D007D12BB /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D72DBD266E0B3D007D12BB /* ImageSaver.swift */; };
+		85D72DC1266E0F05007D12BB /* PickeredImageView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D72DC0266E0F05007D12BB /* PickeredImageView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -136,6 +138,8 @@
 		859708ED265FD63400EE6AA6 /* URLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLView.swift; sourceTree = "<group>"; };
 		85A1F1E1266D25C900CD0AC9 /* PickeredImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickeredImageView.swift; sourceTree = "<group>"; };
 		85D72D48266D529E007D12BB /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		85D72DBD266E0B3D007D12BB /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		85D72DC0266E0F05007D12BB /* PickeredImageView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickeredImageView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,8 +167,10 @@
 			isa = PBXGroup;
 			children = (
 				850ACD32266BA35000E7A7F9 /* PropertyWrapperStructView.swift */,
-				85A1F1E1266D25C900CD0AC9 /* PickeredImageView.swift */,
 				85D72D48266D529E007D12BB /* ImagePicker.swift */,
+				85D72DBD266E0B3D007D12BB /* ImageSaver.swift */,
+				85A1F1E1266D25C900CD0AC9 /* PickeredImageView.swift */,
+				85D72DC0266E0F05007D12BB /* PickeredImageView2.swift */,
 			);
 			path = "Project12-Instafilter";
 			sourceTree = "<group>";
@@ -472,6 +478,7 @@
 				857EA9302654F3320033F75C /* GridStack.swift in Sources */,
 				850ACD33266BA35000E7A7F9 /* PropertyWrapperStructView.swift in Sources */,
 				852F44192668F95200A9E5A1 /* CheckoutView.swift in Sources */,
+				85D72DBE266E0B3D007D12BB /* ImageSaver.swift in Sources */,
 				857B2191265909A800945A55 /* AddNewExpenseView.swift in Sources */,
 				857B20C6265544C800945A55 /* AnimationView2.swift in Sources */,
 				859708B2265D056600EE6AA6 /* DrawingView.swift in Sources */,
@@ -489,6 +496,7 @@
 				859708AC265CEBA400EE6AA6 /* AstronautView.swift in Sources */,
 				852F440F2668F09500A9E5A1 /* Order.swift in Sources */,
 				857EA92E2654F3320033F75C /* WeSplitView.swift in Sources */,
+				85D72DC1266E0F05007D12BB /* PickeredImageView2.swift in Sources */,
 				859708DC265E5FB000EE6AA6 /* AnimatedShapeView.swift in Sources */,
 				856AF640265BA52F00717BC4 /* Bundle+Decodable.swift in Sources */,
 				856AF62F265B8A6F00717BC4 /* CustomText.swift in Sources */,
