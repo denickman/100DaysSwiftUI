@@ -38,7 +38,9 @@ struct DaysSwiftUIApp: App {
 //            SizeClassView()
 //            PropertyWrapperStructView()
 //            PickeredImageView()
-            PickeredImageView2()
+//            PickeredImageView2()
+//            ComparableView()
+            ContentMapView()
             
         }
     }
